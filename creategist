@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# creating vuejs github gist components
+
+python <(curl https://raw.githubusercontent.com/nickwu241/vue-static-gist-example/master/to_gist_comp.py) $1 
